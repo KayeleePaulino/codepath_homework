@@ -10,4 +10,4 @@ Save the file as **screenfetch.gif**.
  
 ### Running screenfetch
 
-<img src="screenfetch.gif" alt="Running screenfetch">
+<img src="2022-09-19_16-20-50_AdobeExpress.gif" alt="Running screenfetch">
