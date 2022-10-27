@@ -1,4 +1,4 @@
-# Project 3 - VirtualBox and Kali
+#Unit 8 Lab Exercises: WordPress vs. Kali, Round 2
 
 Save the file as **screenfetch.gif**.
 
