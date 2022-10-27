@@ -1,13 +1,25 @@
 #Unit 8 Lab Exercises: WordPress vs. Kali, Round 2
 
-Save the file as **screenfetch.gif**.
-
 **Challenges and Problems**: 
 
-### Installing VirtualBox and Kali
+###Milestone 0: Preparing the Playing Field
 
-<img src="Screenshot 2022-09-19 164425.png" alt="Virtualbox Installation">
+<img src="Screenshot 2022-10-27 132805.png">
  
-### Running screenfetch
+### Milestone 1: Opening an Attack Surface
 
-<img src="2022-09-19_16-20-50_AdobeExpress.gif" alt="Running screenfetch">
+<img src="Screenshot 2022-10-24 153511.png">
+
+### Milestone 2: Recon
+
+<img src="Screenshot 2022-10-24 153859.png">
+
+## Milestone 3: Hello, Metasploit
+
+<img src="Screenshot 2022-10-24 154116.png">
+
+<img src="Screenshot 2022-10-27 134604.png">
+
+## Milestone 5: Tag it
+
+<img src="Screenshot 2022-10-27 152254.png">
