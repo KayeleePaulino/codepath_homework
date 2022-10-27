@@ -2,7 +2,7 @@
 
 **Challenges and Problems**: 
 
-###Milestone 0: Preparing the Playing Field
+### Milestone 0: Preparing the Playing Field
 
 <img src="Screenshot 2022-10-27 132805.png">
  
