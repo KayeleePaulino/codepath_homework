@@ -11,10 +11,6 @@ During this lab, you'll be using known vulnerabilities in common software. Later
 Common Exposures and Vulnerabilities
 This database is a cross-industry effort by security researchers, application developers, and the rest of the software ecosystem to catalog, expose, and fix common vulnerabilities in popular software.
 
-```bash
-name="Kayelee Paulino"
-univ="Miami Dade Collage"
-
 **Challenges and Problems**: 
 
 ### Milestone 0: Preparing the Playing Field
