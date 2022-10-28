@@ -1,5 +1,20 @@
 ## Unit 8 Lab Exercises: WordPress vs. Kali, Round 2
 
+**Homework Instructions**:
+
+There is a lot of work to be done in this module, so it is important to keep your eyes on the prize. The main goals of this module are that by the end, you can:
+
+Describe in detail how the Metasploit framework works
+Use industry-standard tools to identify known vulnerabilities from the Common Vulnerabilities and Exposures database
+During this lab, you'll be using known vulnerabilities in common software. Later in the course, we'll explore the following resource:
+
+Common Exposures and Vulnerabilities
+This database is a cross-industry effort by security researchers, application developers, and the rest of the software ecosystem to catalog, expose, and fix common vulnerabilities in popular software.
+
+```bash
+name="Kayelee Paulino"
+univ="Miami Dade Collage"
+
 **Challenges and Problems**: 
 
 ### Milestone 0: Preparing the Playing Field
