@@ -24,7 +24,7 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 <img src="2022-11-02 23-56-43.gif">
 
-- [ ] Vulnerability #1: SQL Injection (SQLi)
+- [ ] Vulnerability #1: Session Hijacking/Fixation
 
 * The Victim's session ID is obtained through the tool that is provided by the codepath
 
