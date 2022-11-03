@@ -22,17 +22,20 @@ Vulnerability #1: SQL Injection (SQLi)
 - The Attacker is Injects a sql command instead of the proper Salesperson's ID Number.
 - Injected SQL Command: ``%27%20OR%20SLEEP(5)=0--%27``
 
-<img src="blue-vuln1.gif">
+<img src="2022-11-02 23-56-43.gif">
 
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Username Enumeration
 
-Description:
+- As you can see from above, the Green Website has the Username Enumeration error where the failure to login message differs for the Username that exists vs doesn't exist.
+-Using Chrome's debugging tool, I was able to see that the Developer assigns two different classes, failed and failure, to the error message depending on the login senerio.
+-The "failure" class is applied an bold style in css while "failed" class doesn't.
 
-<img src="green-vuln1.gif">
+<img src="2022-11-03 00-02-51.gif">
 
+<img src="Screenshot 2022-11-03 001251.png">
 
 ## Red
 
