@@ -27,11 +27,22 @@ Vulnerability #1: SQL Injection (SQLi)
 
 ## Green
 
-Vulnerability #1: Username Enumeration
+## Green
 
-- As you can see from above, the Green Website has the Username Enumeration error where the failure to login message differs for the Username that exists vs doesn't exist.
--Using Chrome's debugging tool, I was able to see that the Developer assigns two different classes, failed and failure, to the error message depending on the login senerio.
--The "failure" class is applied an bold style in css while "failed" class doesn't.
+Vulnerability #1: Cross-Site Scripting (XSS)
+
+- Attacker can inject an XSS in their feedback form.
+- Injected XSS Command:
+``<script>alert('Jinwoo found the XSS!');</script>``
+-This XSS runs as soon as the account holder checks their feedback page
+
+<img src="2022-11-03 00-24-27.gif">
+
+Vulnerability #2: Username Enumeration
+
+- As you can see, the Green Website has the Username Enumeration error where the failure to login message differs for the Username that exists vs doesn't exist.
+- I used Chrome's debugging tool and was able to see that the Developer assigns two different classes, failed and failure, to the error message depending on the login senerio.
+- The "failure" class is applied an bold style in css while "failed" class doesn't.
 
 <img src="2022-11-03 00-02-51.gif">
 
