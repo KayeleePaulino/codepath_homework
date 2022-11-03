@@ -1,6 +1,6 @@
 # Pen Testing Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: **34** hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -69,4 +69,8 @@ Description:
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+- [ ] Blue
+
+* Had trouble with Session Hijacking/Fixation. It would let me hihack the seesion even though I had the php id. But I just refreshed burp a few times until it worked.
+
+
