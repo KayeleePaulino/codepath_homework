@@ -24,9 +24,6 @@ Vulnerability #1: SQL Injection (SQLi)
 
 <img src="2022-11-02 23-56-43.gif">
 
-
-## Green
-
 ## Green
 
 Vulnerability #1: Cross-Site Scripting (XSS)
