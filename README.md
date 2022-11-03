@@ -52,7 +52,6 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 * As you can see, the Green Website has the Username Enumeration error where the failure to login message differs for the Username that exists vs doesn't exist.
 * I used Chrome's debugging tool and was able to see that the Developer assigns two different classes, failed and failure, to the error message depending on the login senerio.
-* The "failure" class is applied an bold style in css while "failed" class doesn't.
 
 <img src="2022-11-03 00-02-51.gif">
 
