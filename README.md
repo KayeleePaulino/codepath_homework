@@ -17,7 +17,7 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: SQL Injection (SQLi)
+>Vulnerability #1: SQL Injection (SQLi)
 
 - The Attacker is Injects a sql command instead of the proper Salesperson's ID Number.
 - Injected SQL Command: ``%27%20OR%20SLEEP(5)=0--%27``
@@ -26,7 +26,7 @@ Vulnerability #1: SQL Injection (SQLi)
 
 ## Green
 
-Vulnerability #1: Cross-Site Scripting (XSS)
+>Vulnerability #1: Cross-Site Scripting (XSS)
 
 - Attacker can inject an XSS in their feedback form.
 - Injected XSS Command:
@@ -35,7 +35,7 @@ Vulnerability #1: Cross-Site Scripting (XSS)
 
 <img src="2022-11-03 00-24-27.gif">
 
-Vulnerability #2: Username Enumeration
+>Vulnerability #2: Username Enumeration
 
 - As you can see, the Green Website has the Username Enumeration error where the failure to login message differs for the Username that exists vs doesn't exist.
 - I used Chrome's debugging tool and was able to see that the Developer assigns two different classes, failed and failure, to the error message depending on the login senerio.
