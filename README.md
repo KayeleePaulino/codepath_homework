@@ -75,9 +75,8 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 <img src="Screenshot 2022-11-03 023818.png">
 
 * Some other you can access are: 
-
  ```
-  ID: 1 NAME: Daron Burke
+                - ID: 1 NAME: Daron Burke
 		- ID: 2 NAME: Sherry Trevino
 		- ID: 3 NAME: Irene Boliing
 		- ID: 4 NAME: Robert Hamilton
