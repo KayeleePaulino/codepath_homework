@@ -35,7 +35,7 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 <img src="2022-11-03 01-26-48.gif">
 
--Once the packet is forwarded, the attacker is logged in using the Victim's session ID
+- Once the packet is forwarded, the attacker is logged in using the Victim's session ID
 
 ## Green
 
@@ -44,7 +44,7 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 - Attacker can inject an XSS in their feedback form.
 - Injected XSS Command:
 ``<script>alert('Jinwoo found the XSS!');</script>``
--This XSS runs as soon as the account holder checks their feedback page
+- This XSS runs as soon as the account holder checks their feedback page
 
 <img src="2022-11-03 00-24-27.gif">
 
