@@ -63,12 +63,16 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Red
 
-- [ ] Vulnerability #1: __________________
+- [ ] Vulnerability #1: Insecure Direct Object Reference
 
-Description:
+* Above GIF show an attacker getting access to the hidden user's accounts that the attacker is not permitted to view.
+* This is done through modifying the "id" parameter in the URL's to change the GET request.
 
-<img src="red-vuln1.gif">
+<img src="2022-11-03 02-32-34.gif">
 
+* You may find a few other like if you change the id to 11, you can find a former employe named Lazy. 
+
+<img src="Screenshot 2022-11-03 023818.png">
 
 ## Notes
 
