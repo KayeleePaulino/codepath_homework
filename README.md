@@ -26,12 +26,12 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 - [ ] Vulnerability #1: SQL Injection (SQLi)
 
--The Victim's session ID is obtained through the tool that is provided by the codepath
+- The Victim's session ID is obtained through the tool that is provided by the codepath
 
 <img src="2022-11-03 01-21-48_Trim.gif">
 
--Using burp, we can intercept the attacker's access attempt to and secure site
--From the intercepted packet, we can modify the session ID to the one we obtained from the Victim
+- Using burp, we can intercept the attacker's access attempt to and secure site
+- From the intercepted packet, we can modify the session ID to the one we obtained from the Victim
 
 <img src="2022-11-03 01-26-48.gif">
 
