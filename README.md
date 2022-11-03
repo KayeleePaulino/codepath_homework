@@ -20,7 +20,8 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 Vulnerability #1: SQL Injection (SQLi)
 
 - The Attacker is Injects a sql command instead of the proper Salesperson's ID Number.
-- Injected SQL Command: >%27%20OR%20SLEEP(5)=0--%27
+- Injected SQL Command: 
+  <%27%20OR%20SLEEP(5)=0--%27>
 
 <img src="blue-vuln1.gif">
 
