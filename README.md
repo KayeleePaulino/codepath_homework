@@ -77,14 +77,14 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 * Some other you can access are: 
  ```
 - ID: 1 NAME: Daron Burke
-		- ID: 2 NAME: Sherry Trevino
-		- ID: 3 NAME: Irene Boliing
-		- ID: 4 NAME: Robert Hamilton
-		- ID: 5 NAME: Ken Barker
-		- ID: 6 NAME: Elizabeth Olson
-		- ID: 7 NAME: Samuel Hunter
-		- ID: 8 NAME: Kim Stanley
-		- ID: 9 NAME: Barbara Hinckley
+- ID: 2 NAME: Sherry Trevino
+- ID: 3 NAME: Irene Boliing
+- ID: 4 NAME: Robert Hamilton
+- ID: 5 NAME: Ken Barker
+- ID: 6 NAME: Elizabeth Olson
+- ID: 7 NAME: Samuel Hunter
+- ID: 8 NAME: Kim Stanley
+- ID: 9 NAME: Barbara Hinckley
  ```
 
 ## Notes
