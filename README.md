@@ -70,7 +70,7 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 <img src="2022-11-03 02-32-34.gif">
 
-* You may find a few other. For example, ifyou change the id to 11, you can find a former employe named Lazy. 
+* You may find a few other. For example, if you change the id to 11, you can find a former employe named Lazy. 
 
 <img src="Screenshot 2022-11-03 023818.png">
 
