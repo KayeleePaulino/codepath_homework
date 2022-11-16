@@ -1,12 +1,14 @@
 # Honeypot Assignment
 
-**Time spent:** **X** hours spent in total
+**Time spent:** **72** hours spent in total
 
 **Objective:** Create a honeynet using MHN-Admin. Present your findings as if you were requested to give a brief report of the current state of Internet security. Assume that your audience is a current employer who is questioning why the company should allocate anymore resources to the IT security team.
 
 ### MHN-Admin Deployment (Required)
 
 **Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
+
+I use GCP to deploy the programing.
 
 <img src="mhn-admin.gif">
 
@@ -21,14 +23,6 @@
 **Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
 
 *Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
-
-### Deploying Additional Honeypot(s) (Optional)
-
-#### X Honeypot
-
-**Summary:** What does this honeypot simulate and do for a security researcher?
-
-<img src="x-honeypot.gif">
 
 ## Notes
 
